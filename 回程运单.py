@@ -12,9 +12,9 @@ class waybill_rec():
 
 	def __init__(self,name):
 		self.name = name
-		self.APP_ID = '23864245'
-		self.API_KEY = 'c1e58T6utxFRKV0r5cO7Qq3e'
-		self.SECRET_KEY = 'qD6wywG3Ns4a9GRrshc2UwGdIlqKQG8k'
+		self.APP_ID = ''
+		self.API_KEY = ''
+		self.SECRET_KEY = ''
 		
 	def crop_image(self):
 		self.im = Image.open(self.name)
